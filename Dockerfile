@@ -1,6 +1,7 @@
 FROM node:12
 
 LABEL maintainer="yaron@techmarketing.co.il"
+LABEL version="0.0.1"
 
 RUN apt-get update && \
 		apt-get install -y \
